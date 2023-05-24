@@ -4,9 +4,9 @@ on:
     pull_request:
         branches:
             - main
+            - develop
             - zeri
             - ria
-        
 jobs:
     ktlint:
         name: Check Code Quality
