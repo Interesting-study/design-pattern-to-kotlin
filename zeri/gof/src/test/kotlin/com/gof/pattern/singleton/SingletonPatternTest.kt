@@ -1,6 +1,13 @@
 package com.gof.pattern.singleton
 
-import com.gof.pattern.singleton.javakotlin.*
+import com.gof.pattern.singleton.javakotlin.BasicSettings
+import com.gof.pattern.singleton.javakotlin.Settings
+import com.gof.pattern.singleton.javakotlin.Settings1
+import com.gof.pattern.singleton.javakotlin.Settings2
+import com.gof.pattern.singleton.javakotlin.Settings3
+import com.gof.pattern.singleton.javakotlin.Settings4
+import com.gof.pattern.singleton.javakotlin.Settings5
+import com.gof.pattern.singleton.javakotlin.Settings6
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.DisplayName
