@@ -3,6 +3,10 @@ package com.gof.pattern.factoryMethod.before;
 /**
  * OCP 원칙 위반
  * 제품이 추가될 경우 기존 코드가 수정됨
+ * 핵심 로직
+ * 1. 유효성 체크
+ * 2. 배 제작 (이름에 따른 로고, 색 설정) -> 수정되는 코드
+ * 3. 제작 완료 후 이메일 발송
  */
 public class ShipFactory {
 

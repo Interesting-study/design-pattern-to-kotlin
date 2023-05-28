@@ -1,8 +1,8 @@
 package com.gof.pattern.factoryMethod.after;
 
-public class WhiteshipFactory extends DefaultShipFactory {
+public class WhiteShipFactory extends DefaultShipFactory {
     @Override
     public Ship createShip() {
-        return new Whiteship();
+        return new WhiteShip();
     }
 }
