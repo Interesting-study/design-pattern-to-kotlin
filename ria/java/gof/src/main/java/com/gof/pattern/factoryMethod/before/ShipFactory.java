@@ -24,16 +24,16 @@ public class ShipFactory {
         ship.setName(name);
 
         // Customizing for specific name
-        if (name.equalsIgnoreCase("whiteship")) {
+        if (name.equalsIgnoreCase("whiteShip")) {
             ship.setLogo("\uD83D\uDEE5");
-        } else if (name.equalsIgnoreCase("blackship")) {
+        } else if (name.equalsIgnoreCase("blackShip")) {
             ship.setLogo("⚓");
         }
 
         // coloring
-        if (name.equalsIgnoreCase("whiteship")) {
+        if (name.equalsIgnoreCase("whiteShip")) {
             ship.setColor("white");
-        } else if (name.equalsIgnoreCase("blackship")) {
+        } else if (name.equalsIgnoreCase("blackShip")) {
             ship.setColor("black");
         }
 

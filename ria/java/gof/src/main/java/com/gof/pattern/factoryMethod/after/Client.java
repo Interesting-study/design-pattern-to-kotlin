@@ -10,8 +10,8 @@ public class Client {
 
         /** 클라이언트 코드 변경 최소화 **/
         Client client = new Client();
-        client.print(new WhiteShipFactory(), "whiteship", "ria@email.com");
-        client.print(new BlackShipFactory(), "blackship", "ria@email.com");
+        client.print(new WhiteShipFactory(), "whiteShip", "ria@email.com");
+        client.print(new BlackShipFactory(), "blackShip", "ria@email.com");
     }
 
     private void print(ShipFactory shipFactory, String name, String email) {
