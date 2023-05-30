@@ -7,4 +7,3 @@ class WhiteShip : Ship() {
         color = "white"
     }
 }
-

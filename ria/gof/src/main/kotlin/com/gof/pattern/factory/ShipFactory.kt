@@ -22,7 +22,6 @@ interface ShipFactory {
 
     fun prepareFor(name: String) {
         println("$name 만들 준비 중")
-
     }
 
     fun sendEmailTo(email: String, ship: Ship)

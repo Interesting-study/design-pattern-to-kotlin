@@ -1,4 +1,3 @@
 package com.gof.pattern.singleton
 
-class Settings {
-}
+class Settings
