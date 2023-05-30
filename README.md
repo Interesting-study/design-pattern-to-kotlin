@@ -65,4 +65,20 @@
 
 - 2023.05.17
   - [x] 코드리뷰 및 다음 주차 내용 공유 
+  
+  
+- 2023.05.30
+  - [x] 팩토리 메서드 패턴
+  ```
+  #ria
+  중간 난이도 예제 - 주문 처리: 추상 클래스 OrderProcessor를 정의하고, 
+  이를 상속받은 OnlineOrderProcessor, InStoreOrderProcessor, PhoneOrderProcessor 클래스를 구현합니다.
+  OrderProcessorFactory 클래스는 OrderProcessor 객체를 생성하는 팩토리 메서드 createOrderProcessor를 가지고 있습니다.
+  ```
+  ```
+  #zeri
+  상위 난이도 예제 - 데이터베이스 연결:
+  추상 클래스 DatabaseConnection을 정의하고, 이를 상속받은 MySQLConnection, OracleConnection, PostgreSQLConnection 클래스를 구현합니다. 
+  DatabaseConnectionFactory 클래스는 DatabaseConnection 객체를 생성하는 팩토리 메서드 createConnection을 가지고 있습니다.
+  ```
 
