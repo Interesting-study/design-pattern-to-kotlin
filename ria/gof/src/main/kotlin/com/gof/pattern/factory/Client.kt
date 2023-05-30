@@ -8,6 +8,6 @@ class Client {
 
 fun main() {
     val client = Client()
-    client.print(WhiteShipFactory(), "whiteship", "ria@email.com")
-    client.print(BlackShipFactory(), "blackship", "ria@eamil.com")
+    client.print(WhiteShipFactory(), "whiteShip", "ria@email.com")
+    client.print(BlackShipFactory(), "blackShip", "ria@eamil.com")
 }
