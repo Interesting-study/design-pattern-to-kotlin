@@ -4,7 +4,7 @@ public class OnlineOrder extends Order {
 
     public OnlineOrder() {
         setOrderType("online");
-        setItem("맥북");
+        setItem("mac");
         setPrice("1000000");
     }
 }

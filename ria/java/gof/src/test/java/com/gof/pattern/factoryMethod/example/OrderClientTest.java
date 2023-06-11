@@ -1,12 +1,12 @@
 package com.gof.pattern.factoryMethod.example;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-class OrderTest {
+class OrderClientTest {
 
     @Test
     @DisplayName("팩토리 패턴을 적용한 주문 처리 테스트")
@@ -30,7 +30,7 @@ class OrderTest {
     @Test
     @DisplayName("존재하지 않는 주문 타입으로 요청 시 예외가 발생하는 테스트")
     void notExistOrderTypeTest() {
-        Assertions.assertThrows(IllegalStateException.class,
+        assertThrows(IllegalStateException.class,
                 () -> OrderProcessorFactory.createOrderProcessor("refund"));
     }
 }
