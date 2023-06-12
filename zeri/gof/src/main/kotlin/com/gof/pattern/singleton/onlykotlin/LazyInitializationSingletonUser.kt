@@ -1,4 +1,4 @@
-package com.pattern.gof.singleton.onlykotlin
+package com.gof.pattern.singleton.onlykotlin
 
 /**
  * [코틀린에서 싱글톤 패턴 구현하기]
@@ -13,12 +13,5 @@ class LazyInitializationSingletonUser private constructor(
     companion object {
         private val singletonUser by lazy(LazyThreadSafetyMode.PUBLICATION) { LazyInitializationSingletonUser() }
         fun getInstance(): LazyInitializationSingletonUser = singletonUser
-    }
-}
-
-fun main(args: Array<String>) {
-    with(LazyInitializationSingletonUser.getInstance()) {
-        firstName = "Ihor"
-        lastName = "Kuchen"
     }
 }

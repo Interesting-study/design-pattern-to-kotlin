@@ -1,4 +1,4 @@
-package com.pattern.gof.singleton.onlykotlin
+package com.gof.pattern.singleton.onlykotlin
 
 /**
  * [코틀린에서 싱글톤 패턴 구현하기]
