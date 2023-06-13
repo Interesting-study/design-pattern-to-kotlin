@@ -1,8 +1,8 @@
 package com.gof.pattern.example
 
-class InStoreOrder : Order() {
+class OfflineOrder : Order() {
     init {
-        orderType = "inStore"
+        orderType = OrderType.OFFLINE
         item = "pen"
         price = "1500"
     }
