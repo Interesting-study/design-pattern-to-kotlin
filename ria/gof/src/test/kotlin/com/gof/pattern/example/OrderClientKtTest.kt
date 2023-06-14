@@ -1,6 +1,6 @@
 package com.gof.pattern.example
 
-import org.assertj.core.api.Assertions.assertThat
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
@@ -9,20 +9,20 @@ class OrderClientKtTest {
     @Test
     @DisplayName("팩토리 패턴을 적용한 주문 처리 테스트")
     fun orderProcessorTest() {
-        val online = OrderProcessorFactory.createOrderProcessor(OrderType.ONLINE)
-        val onlineOrder = online.order()
-        assertThat(onlineOrder.orderType).isEqualTo("online")
-        assertThat(onlineOrder.item).isEqualTo("mac")
+        // given
+        val online = OrderFactory.createOrder(OrderType.ONLINE)
+        // then
+        assertTrue(online is OnlineOrder)
 
-        val offline = OrderProcessorFactory.createOrderProcessor(OrderType.OFFLINE)
-        val offlineOrder = offline.order()
-        assertThat(offlineOrder.orderType).isEqualTo("offline")
-        assertThat(offlineOrder.item).isEqualTo("pen")
+        // given
+        val offline = OrderFactory.createOrder(OrderType.OFFLINE)
+        // then
+        assertTrue(offline is OfflineOrder)
 
-        val phone = OrderProcessorFactory.createOrderProcessor(OrderType.PHONE)
-        val phoneOrder = phone.order()
-        assertThat(phoneOrder.orderType).isEqualTo("phone")
-        assertThat(phoneOrder.item).isEqualTo("travel")
+        // given
+        val phone = OrderFactory.createOrder(OrderType.PHONE)
+        // then
+        assertTrue(phone is PhoneOrder)
     }
 
 //    @Test
