@@ -1,7 +1,7 @@
 package com.gof.pattern.singleton
 
 /** object 키워드로 싱글톤 구현 **/
-object SingletonSettings {}
+object SingletonSettings
 
 fun main() {
     var singletonSettings = SingletonSettings
@@ -22,4 +22,3 @@ fun main() {
     val singletonSettings66 = SingletonSettings6.INSTANCE
     println(singletonSettings6 === singletonSettings66)
 }
-

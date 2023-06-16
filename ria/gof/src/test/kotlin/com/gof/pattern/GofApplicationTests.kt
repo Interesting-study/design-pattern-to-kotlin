@@ -9,5 +9,4 @@ class GofApplicationTests {
     @Test
     fun contextLoads() {
     }
-
 }
