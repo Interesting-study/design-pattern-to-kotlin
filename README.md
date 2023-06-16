@@ -65,4 +65,33 @@
 
 - 2023.05.17
   - [x] 코드리뷰 및 다음 주차 내용 공유 
+  
+  
+- 2023.05.30
+  - [x] 팩토리 메서드 패턴
+  ```
+  #ria
+  중간 난이도 예제 - 주문 처리: 추상 클래스 OrderProcessor를 정의하고, 
+  이를 상속받은 OnlineOrderProcessor, InStoreOrderProcessor, PhoneOrderProcessor 클래스를 구현합니다.
+  OrderProcessorFactory 클래스는 OrderProcessor 객체를 생성하는 팩토리 메서드 createOrderProcessor를 가지고 있습니다.
+  ```
+  ```
+  #zeri
+  추상 클래스 Shape를 정의하고, 이를 상속받은 Circle, Rectangle, Triangle 클래스를 구현합니다. 
+  ShapeFactory 클래스는 Shape 객체를 생성하는 팩토리 메서드 createShape를 가지고 있습니다.
+  ```
+  
+- 2023.06.14
+  - [x] 추상 팩토리 메소드 패턴
+  ```
+  #ria
+  문제: 여러 종류의 차를 나타내는 Tea 인터페이스와 이를 구현하는 BlackTea와 GreenTea 클래스가 있습니다. 이러한 차 객체를 생성하기 위한 추상 팩토리 메소드를 구현해보세요.
+  ```
+  ```
+  #zeri
+  문제: 여러 종류의 과일을 나타내는 Fruit 인터페이스와 이를 구현하는 Apple과 Banana 클래스가 있습니다. 이러한 과일 객체를 생성하기 위한 추상 팩토리 메소드를 구현해보세요.
+  ```
+
+  
+ 
 
