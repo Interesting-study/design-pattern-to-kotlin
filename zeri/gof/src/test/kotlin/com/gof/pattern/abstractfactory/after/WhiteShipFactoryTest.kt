@@ -10,19 +10,18 @@ import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class WhiteShipFactoryTest{
+class WhiteShipFactoryTest {
     @Test
     @DisplayName("추상팩토리 메소드 패턴")
     fun abstractFactoryMethodTest() {
         // given
-        val shipFactory : ShipFactory = WhiteShipFactory(WhiteShipPartsFactory())
+        val shipFactory: ShipFactory = WhiteShipFactory(WhiteShipPartsFactory())
 
         // when
-        val ship : Ship = shipFactory.createShip()
+        val ship: Ship = shipFactory.createShip()
 
         // then
         assertTrue(ship.anchor is WhiteAnchor)
         assertTrue(ship.wheel is WhiteWheel)
     }
-
 }

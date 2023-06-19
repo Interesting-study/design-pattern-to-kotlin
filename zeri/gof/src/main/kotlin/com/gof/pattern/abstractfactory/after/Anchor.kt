@@ -1,5 +1,4 @@
 package com.gof.pattern.abstractfactory.after
 
-interface Anchor {
+interface Anchor
 
-}

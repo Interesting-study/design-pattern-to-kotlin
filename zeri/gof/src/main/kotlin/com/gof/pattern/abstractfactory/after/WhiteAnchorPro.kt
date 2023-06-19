@@ -1,4 +1,4 @@
 package com.gof.pattern.abstractfactory.after
 
-class WhiteAnchorPro : Anchor {
-}
+class WhiteAnchorPro : Anchor
+
