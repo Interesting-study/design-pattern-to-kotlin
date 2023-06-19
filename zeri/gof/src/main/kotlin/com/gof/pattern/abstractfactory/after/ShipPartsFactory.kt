@@ -1,4 +1,4 @@
-package com.gof.pattern.abstract_factory.after
+package com.gof.pattern.abstractfactory.after
 
 interface ShipPartsFactory {
 

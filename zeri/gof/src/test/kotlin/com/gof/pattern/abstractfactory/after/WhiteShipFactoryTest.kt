@@ -1,7 +1,7 @@
-package com.gof.pattern.abstract_factory.after
+package com.gof.pattern.abstractfactory.after
 
-import com.gof.pattern.abstract_factory.before.WhiteAnchor
-import com.gof.pattern.abstract_factory.before.WhiteWheel
+import com.gof.pattern.abstractfactory.before.WhiteAnchor
+import com.gof.pattern.abstractfactory.before.WhiteWheel
 import com.gof.pattern.factorymethod.javatokotlin.after.Ship
 import com.gof.pattern.factorymethod.javatokotlin.after.ShipFactory
 import org.junit.jupiter.api.Assertions.assertTrue

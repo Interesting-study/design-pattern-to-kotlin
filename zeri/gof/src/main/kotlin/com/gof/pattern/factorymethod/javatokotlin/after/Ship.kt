@@ -1,7 +1,7 @@
 package com.gof.pattern.factorymethod.javatokotlin.after
 
-import com.gof.pattern.abstract_factory.after.Anchor
-import com.gof.pattern.abstract_factory.after.Wheel
+import com.gof.pattern.abstractfactory.after.Anchor
+import com.gof.pattern.abstractfactory.after.Wheel
 
 open class Ship {
     var name: String = ""

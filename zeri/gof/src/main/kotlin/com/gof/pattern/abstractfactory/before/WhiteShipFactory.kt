@@ -1,4 +1,4 @@
-package com.gof.pattern.abstract_factory.before
+package com.gof.pattern.abstractfactory.before
 
 import com.gof.pattern.factorymethod.javatokotlin.after.DefaultShipFactory
 import com.gof.pattern.factorymethod.javatokotlin.after.Ship
