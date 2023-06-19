@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class ShapeFactoryTest{
+class ShapeFactoryTest {
     @Test
     @DisplayName("ShapeFactory 가 정상적으로 작동한다")
     fun shapeFactoryTest() {
