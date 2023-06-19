@@ -12,5 +12,3 @@ class WhiteShipFactory : DefaultShipFactory() {
         return ship
     }
 }
-
-
