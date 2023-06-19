@@ -4,4 +4,3 @@ import com.gof.pattern.abstractfactory.after.Wheel
 
 
 class WhiteWheel : Wheel
-

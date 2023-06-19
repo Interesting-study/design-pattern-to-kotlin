@@ -4,7 +4,7 @@ import com.gof.pattern.factorymethod.javatokotlin.after.DefaultShipFactory
 import com.gof.pattern.factorymethod.javatokotlin.after.Ship
 import com.gof.pattern.factorymethod.javatokotlin.after.WhiteShip
 
-class WhiteShipFactory: DefaultShipFactory() {
+class WhiteShipFactory : DefaultShipFactory() {
     override fun createShip(): Ship {
         val ship: Ship = WhiteShip()
         ship.anchor = WhiteAnchor()
