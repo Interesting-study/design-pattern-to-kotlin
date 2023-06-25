@@ -9,10 +9,9 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
-@SpringBootTest
 class WhiteShipFactoryTest {
     @Test
-    @DisplayName("추상팩토리 메소드 패턴")
+    @DisplayName("추상팩토리 메소드 패턴이 정상적으로 작동한다")
     fun abstractFactoryMethodTest() {
         // given
         val shipFactory: ShipFactory = WhiteShipFactory(WhiteShipPartsFactory())
