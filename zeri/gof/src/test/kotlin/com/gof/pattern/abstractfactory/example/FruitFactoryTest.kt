@@ -14,7 +14,6 @@ class FruitFactoryTest {
         val banana: Fruit? = FruitFactory.createFruit("BANANA")
         val orange: Fruit? = FruitFactory.createFruit("ORANGE")
 
-
         // then
         assertTrue(apple is Apple)
         assertEquals(apple?.getName(), "사과")
