@@ -5,7 +5,7 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import java.time.LocalDate
 
-class TourPlanTest{
+class TourPlanTest {
     @Test
     @DisplayName("빌더패턴 적용 전 테스트가 정상 작동한다.")
     fun builderPatternBeforeTest() {
@@ -31,7 +31,6 @@ class TourPlanTest{
         tourPlan.addPlan(1, "저녁은 BBQ 식당에서 스테이크")
         tourPlan.addPlan(2, "조식 부페에서 식사")
         tourPlan.addPlan(2, "체크아웃")
-
 
         // then
         assertEquals("오레곤 롱비치 여행", shortPlan.title)

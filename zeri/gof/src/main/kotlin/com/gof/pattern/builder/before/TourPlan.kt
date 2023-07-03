@@ -2,9 +2,9 @@ package com.gof.pattern.builder.before
 
 import java.time.LocalDate
 
-data class TourPlan(var title: String, var nights: Int, var days: Int,
+data class TourPlan (var title: String, var nights: Int, var days: Int,
                     var startDate: LocalDate, var whereToStay: String,
-                    var plans: List<DetailPlan>,) {
+                    var plans: List<DetailPlan>) {
 
     constructor() : this("", 0, 0, LocalDate.now(), "", listOf())
 

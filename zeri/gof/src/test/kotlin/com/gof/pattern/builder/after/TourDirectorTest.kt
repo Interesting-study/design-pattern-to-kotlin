@@ -7,13 +7,12 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import java.time.LocalDate
 
-class TourDirectorTest{
+class TourDirectorTest {
     @Test
     @DisplayName("빌더 패턴이 정상적으로 작동한다")
     fun builderPatternAfterTest() {
         // given
         val director = TourDirector(DefaultTourBuilder())
-
 
         // when
         val cancunPlan: TourPlan = director.cancunTrip()
