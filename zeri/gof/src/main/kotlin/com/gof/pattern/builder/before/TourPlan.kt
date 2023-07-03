@@ -13,7 +13,7 @@ data class TourPlan(
     constructor() : this("", 0, 0, LocalDate.now(), "", listOf())
 
     override fun toString(): String {
-        return "TourPlan{ title= $title , nights =  $nights, days =  $days , startDate =  $startDate , " + "whereToStay =  $whereToStay , plans =  $plans }"
+        return "TourPlan{ title= $title , nights =  $nights, days =  $days , startDate =  $startDate , whereToStay =  $whereToStay , plans =  $plans }"
     }
 
     fun addPlan(day: Int, plan: String) {
