@@ -1,8 +1,5 @@
 package com.gof.pattern.singleton.onlykotlin
 
-import com.pattern.gof.singleton.onlykotlin.CompanionObjectSingletonUser
-import com.pattern.gof.singleton.onlykotlin.LazyInitializationSingletonUser
-import com.pattern.gof.singleton.onlykotlin.ObjectDeclarationSingletonUser
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
